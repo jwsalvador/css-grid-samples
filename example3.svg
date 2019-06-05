@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500px" height="291px" viewBox="0 0 500 291" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>A3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="A3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#E7ECEF" x="0" y="0" width="500" height="291"></rect>
+        <path d="M-155,-25 C3.99070906,-6.4868976 101.19503,17.8546801 136.612964,48.0247332 C167.475879,74.3146862 54.4529444,194.127194 82.4937459,208.468672 C102.835807,218.872628 212.703142,211.372833 240.899352,220.265269 C292.617382,236.575945 378.984265,266.487523 500,310" id="Line-2" stroke="#FFFFFF" stroke-linecap="square"></path>
+        <path d="M267,-25 C293.000492,1.20035922 309.190822,13.8185194 315.57099,12.8544807 C361.769007,5.87399363 383.823965,-24.9600868 420.19062,10.1573319 C431.79934,21.3672785 427.515147,73.6808695 438.05674,89.1173771 C445.493949,100.008002 476.466225,73.1122828 487.019817,89.1173771 C498.477569,106.493677 512.470963,152.787885 529,228" id="Line" stroke="#FFFFFF" stroke-linecap="square"></path>
+        <circle id="Oval" stroke="#FFFFFF" cx="206.5" cy="60.5" r="14.5"></circle>
+        <polygon id="Triangle" stroke="#FFFFFF" points="275.5 101 290 122 261 122"></polygon>
+    </g>
+</svg>

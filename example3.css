@@ -1,0 +1,144 @@
+.example3 .wrapper {
+  display: grid;
+  grid-template-areas:
+    "nav nav nav"
+    "header header right"
+    "left main right"
+    "footer footer footer";
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: auto 60px 100px auto;
+  grid-gap: 8px;
+}
+
+.example3 .wrapper .nav {
+  grid-area: nav;
+}
+.example3 .wrapper .header {
+  grid-area: header;
+}
+.example3 .wrapper .left {
+  grid-area: left;
+}
+.example3 .wrapper .right {
+  grid-area: right;
+}
+.example3 .wrapper .main {
+  grid-area: main;
+}
+.example3 .wrapper .footer {
+  grid-area: footer;
+}
+
+.example3 .pizza1,
+.example3 .pizza2,
+.example3 .pizza3 {
+  display: grid;
+  width: 150px;
+  height: 150px;
+  background: #ff8e3c;
+  border-radius: 100px;
+  text-align: center;
+  align-items: center;
+}
+
+.example3 .slice2 {
+  border-left: 0.5px dashed #999999;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.example3 .pizza1 {
+  grid-template-columns: 1fr;
+}
+.example3 .pizza {
+  display: flex;
+}
+.example3 .pizza2 {
+  grid-template-columns: 1fr 1fr;
+}
+.example3 .pizza3 {
+  grid-template-columns: 2fr 1fr;
+}
+
+/* Page Layout */
+
+.example3 .layout {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "sidebar content"
+    "sidebar footer";
+  grid-template-columns: 150px 1fr;
+  grid-template-rows: 40px 1fr 50px;
+  height: 500px;
+}
+
+.example3 .layout .header {
+  grid-area: header;
+  background: #d8a47f;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+.example3 .layout .sidebar {
+  grid-area: sidebar;
+  display: flex;
+  flex-direction: column;
+  background: #0f7173;
+  align-items: center;
+}
+.example3 .layout .sidebar > a {
+  text-decoration: none;
+  color: #e7ecef;
+  margin-top: 1.2rem;
+  transition: all 250ms ease;
+}
+.example3 .layout .sidebar > a:hover {
+  color: white;
+  transform: scale(1.1, 1.1);
+}
+.example3 .layout .content {
+  grid-area: content;
+  background: #e7ecef;
+  padding: 1.5rem;
+  position: relative;
+  background: url(example3.svg) no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.example3 .layout .content__intro {
+}
+.example3 .layout .content__image {
+  font-size: 12rem;
+  color: #848484;
+}
+.example3 .layout .content h1 {
+  font-weight: 100;
+}
+.example3 .layout .content h3 {
+  font-weight: 100;
+  font-size: 1rem;
+  color: #797979;
+}
+.example3 .layout .content button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: #272932;
+  color: #e7ecef;
+}
+
+.example3 .layout .footer {
+  grid-area: footer;
+  background: rgb(177, 177, 177);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.example3 .layout .footer .fa {
+  color: #e7ecef;
+  font-size: 1.4rem;
+}
